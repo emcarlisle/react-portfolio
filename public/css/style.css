@@ -1,0 +1,48 @@
+/* TABLE OF CONTENTS */
+/* NAVBAR */
+* {
+  box-sizing: border-box;
+}
+.about-page {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron {
+  /*background-image: url("../../src/images/sunset.jpg");*/
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 0%;
+  text-align: center;
+  font-family: "Times New Roman", Courier, monospace;
+  font-weight: bold;
+}
+.container-fluid-about {
+  padding-left: 0%;
+  padding-right: 0%;
+  position: relative;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container-fluid-portfolio {
+  padding-left: 0%;
+  padding-right: 0%;
+  position: relative;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ul.navbar-nav {
+  justify-content: space-evenly;
+}
+.navbar-nav {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
