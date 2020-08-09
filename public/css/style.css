@@ -141,6 +141,7 @@ footer.page-footer {
 .footer-copyright {
   text-align: center;
 }
+/* ICONS */
 i.fa {
   margin-top: 10px;
   font-size: 90px;
@@ -155,4 +156,17 @@ i.fa {
 }
 .fa-linkedin-square {
   color: rgb(0, 132, 255);
+}
+@media screen and (max-width: 800px) {
+  .col {
+    flex: 75%;
+    width: 100%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 415px) {
+  .col {
+    width: 100%;
+    flex: 50%;
+  }
 }
