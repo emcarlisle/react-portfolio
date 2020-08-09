@@ -52,3 +52,26 @@ const portfolioData = [
         demo: "https://drive.google.com/file/d/1iy_bJ7BLYjP3238-98rdhiFvbIZcA4lY/view?usp=sharing"
     }
 ]
+class Portfolio extends Component {
+    render() {
+        return (
+            <main>
+                <section className="container-fluid-portfolio" id="portfolio-pg">
+                    <section id="portfolio-section" style={{ backgroundImage: `url(${lily})` }} className="portfolio-pg">
+                        <h1 className="header">Take a look at some of my projects!</h1>
+                        <div className="portfolio-projects">
+                            <Project projects={portfolioData} />
+                        </div>
+
+
+                    </section>
+                </section>
+            </main>
+
+        );
+
+
+    }
+}
+
+export default Portfolio;
