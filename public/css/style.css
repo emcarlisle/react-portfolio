@@ -46,3 +46,65 @@ ul.navbar-nav {
   margin-bottom: 0;
   list-style: none;
 }
+/* ABOUT PAGE */
+img#website-photo {
+  height: auto;
+  width: 300px;
+  align-self: center;
+  border-color: black;
+  border-radius: 20%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  position: relative;
+}
+p#bio {
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 77%; /* added */
+  margin: auto; /* added */
+  padding: 20px;
+  font-family: "Open Sans";
+  text-align: center;
+}
+section#portfolio-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* HEADER, COL, ROW */
+h1.header {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-family: "Berkshire Swash";
+}
+.display-4 {
+  color: white;
+  font-family: "Pacifico", cursive;
+}
+h2 {
+  text-align: center;
+  color: #235926;
+  background-color: #d9669b;
+  font-weight: bold;
+  font-family: "Open Sans";
+}
+.col {
+  background-color: transparent;
+  display: inline;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
