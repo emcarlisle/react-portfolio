@@ -122,5 +122,10 @@ img.image {
   align-self: center;
 }
 button {
-    background-color: #235926;
-}  
+  background-color: #235926;
+}
+.github {
+  display: flex;
+  color: #d9669b;
+  font-family: "Open Sans";
+}
