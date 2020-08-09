@@ -108,3 +108,19 @@ h2 {
   display: table;
   clear: both;
 }
+/* IMAGES */
+img.image {
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  height: 150px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin: 2px;
+  display: flex;
+  padding: 2%;
+  position: relative;
+  align-self: center;
+}
+button {
+    background-color: #235926;
+}  
