@@ -121,11 +121,23 @@ img.image {
   position: relative;
   align-self: center;
 }
+/* BUTTON */
 button {
   background-color: #235926;
 }
+/* LINKS */
 .github {
   display: flex;
   color: #d9669b;
   font-family: "Open Sans";
+}
+/* FOOTER */
+footer.page-footer {
+  background: rgba(0, 0, 0, 0.562);
+  height: 20%;
+  color: #fff;
+  text-align: center;
+}
+.footer-copyright {
+  text-align: center;
 }
