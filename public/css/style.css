@@ -34,6 +34,13 @@
   position: relative;
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.container-fluid {
+  padding-left: 0%;
+  padding-right: 0%;
+  position: relative;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Courier New", Courier, monospace;
+}
 ul.navbar-nav {
   justify-content: space-evenly;
 }
@@ -46,6 +53,13 @@ ul.navbar-nav {
   margin-bottom: 0;
   list-style: none;
 }
+a {
+    color: #37138b;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 25px;
+}
+
 /* ABOUT PAGE */
 img#website-photo {
   height: auto;
@@ -157,6 +171,7 @@ i.fa {
 .fa-linkedin-square {
   color: rgb(0, 132, 255);
 }
+/* MOBILE RESPONSIVE */
 @media screen and (max-width: 800px) {
   .col {
     flex: 75%;
